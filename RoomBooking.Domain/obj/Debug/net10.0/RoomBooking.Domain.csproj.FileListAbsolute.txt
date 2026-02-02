@@ -1,0 +1,11 @@
+/Users/shaunbell/Desktop/projects/C#2/RoomBooking/RoomBooking.Domain/bin/Debug/net10.0/RoomBooking.Domain.deps.json
+/Users/shaunbell/Desktop/projects/C#2/RoomBooking/RoomBooking.Domain/bin/Debug/net10.0/RoomBooking.Domain.dll
+/Users/shaunbell/Desktop/projects/C#2/RoomBooking/RoomBooking.Domain/bin/Debug/net10.0/RoomBooking.Domain.pdb
+/Users/shaunbell/Desktop/projects/C#2/RoomBooking/RoomBooking.Domain/obj/Debug/net10.0/RoomBooking.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/shaunbell/Desktop/projects/C#2/RoomBooking/RoomBooking.Domain/obj/Debug/net10.0/RoomBooking.Domain.AssemblyInfoInputs.cache
+/Users/shaunbell/Desktop/projects/C#2/RoomBooking/RoomBooking.Domain/obj/Debug/net10.0/RoomBooking.Domain.AssemblyInfo.cs
+/Users/shaunbell/Desktop/projects/C#2/RoomBooking/RoomBooking.Domain/obj/Debug/net10.0/RoomBooking.Domain.csproj.CoreCompileInputs.cache
+/Users/shaunbell/Desktop/projects/C#2/RoomBooking/RoomBooking.Domain/obj/Debug/net10.0/RoomBooking.Domain.dll
+/Users/shaunbell/Desktop/projects/C#2/RoomBooking/RoomBooking.Domain/obj/Debug/net10.0/refint/RoomBooking.Domain.dll
+/Users/shaunbell/Desktop/projects/C#2/RoomBooking/RoomBooking.Domain/obj/Debug/net10.0/RoomBooking.Domain.pdb
+/Users/shaunbell/Desktop/projects/C#2/RoomBooking/RoomBooking.Domain/obj/Debug/net10.0/ref/RoomBooking.Domain.dll
