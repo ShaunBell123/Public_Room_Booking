@@ -1,1 +1,20 @@
+
+
+# Build results
+bin/
+obj/
+Debug/
+Release/
+
+# NuGet
+*.nupkg
+*.snupkg
+packages/
+*.lock.json
+
+# VS Code
+.vscode/
+
+# Environment / secrets
 .env
+
