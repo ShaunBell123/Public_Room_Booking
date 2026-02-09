@@ -26,14 +26,14 @@ namespace RoomBooking.Domain.Entities
             CreatedAt = DateTime.UtcNow;
         }
 
-       public Booking(
-           int id, 
-           int userId, 
-           int roomId, 
-           DateOnly startDate, 
-           DateOnly endDate, 
-           string status, 
-           DateTime createdAt)
+        public Booking(
+            int id,
+            int userId,
+            int roomId,
+            DateOnly startDate,
+            DateOnly endDate,
+            string status,
+            DateTime createdAt)
         {
             Id = id;
             UserId = userId;
@@ -43,6 +43,6 @@ namespace RoomBooking.Domain.Entities
             Status = status;
             CreatedAt = createdAt;
         }
-        
+
     }
 }
