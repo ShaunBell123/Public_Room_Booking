@@ -1,6 +1,9 @@
 # .github/workflows/ci-format.yml
 
-name: format
+name: ci-format
+
+on:
+  workflow_call: {}
 
 jobs:
   format:
