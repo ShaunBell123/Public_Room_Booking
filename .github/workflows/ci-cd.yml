@@ -8,8 +8,8 @@ on:
 
 jobs:
   format:
-    uses: ./.github/workflows/ci-format.yml
+    uses: .github/workflows/ci-format.yml
 
   test:
     needs: format
-    uses: ./.github/workflows/ci-tests.yml
+    uses: .github/workflows/ci-tests.yml
