@@ -1,6 +1,9 @@
 # .github/workflows/ci-tests.yml
 
-name: test
+name: ci-tests
+
+on:
+  workflow_call: {}
 
 jobs:
   test:
