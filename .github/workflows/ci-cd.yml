@@ -1,0 +1,15 @@
+# .github/workflows/ci-cd.yml
+name: ci-cd
+
+on:
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  format:
+    uses: ./.github/workflows/ci-format.yml
+
+  test:
+    needs: format
+    uses: ./.github/workflows/ci-tests.yml
