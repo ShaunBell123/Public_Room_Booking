@@ -65,7 +65,7 @@ namespace RoomBooking.Api.Controllers
                 var handler = new CreateBookingHandler(_bookingRepository);
                 Booking booking = await handler.Handle(request);
 
-                return Ok(new { Message = "Booking created successfully", booking});
+                return Ok(new { Message = "Booking created successfully", booking });
             }
             catch (Exception ex)
             {
