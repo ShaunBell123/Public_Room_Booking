@@ -11,10 +11,12 @@ on:
   #   branches:
   #     - main
 
-#comment just to see if this work 3
+#comment just to see if this work 4
 
 jobs:
-  CI:
+  format:
     uses: ./.github/workflows/ci-format.yml
+
+  test:
+    needs: format
     uses: ./.github/workflows/ci-tests.yml
-    
