@@ -1,17 +1,17 @@
 # .github/workflows/ci-cd.yml
 name: ci-cd
 
+
 on:
-  on:
-    push:
-      branches:
-        - main
+  push:
+    branches:
+      - main
 
   # pull_request:
   #   branches:
   #     - main
 
-#comment just to see if this work
+#comment just to see if this work 2
 
 jobs:
   format:
