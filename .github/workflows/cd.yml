@@ -1,0 +1,13 @@
+# .github/workflows/cd.yml
+
+name: cd
+
+on:
+  workflow_call: {}
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: will replace with real build
+        run: echo "build will happen here"
