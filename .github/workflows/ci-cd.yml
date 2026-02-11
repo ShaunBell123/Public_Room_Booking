@@ -14,9 +14,9 @@ on:
 #comment just to see if this work 5
 
 jobs:
-  format:
+  CI:
     uses: ./.github/workflows/ci-format.yml
 
-  test:
+  CI:
     needs: format
     uses: ./.github/workflows/ci-tests.yml
