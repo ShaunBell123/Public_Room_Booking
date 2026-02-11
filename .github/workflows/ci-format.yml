@@ -5,14 +5,15 @@ name: ci-format
 on:
   workflow_call: {}
 
-format:
-  runs-on: ubuntu-latest
-  steps:
-    - uses: actions/checkout@v3
+jobs:
+  format:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
 
-    - uses: actions/setup-dotnet@v3
-      with:
-        dotnet-version: "10.0.x"
+      - uses: actions/setup-dotnet@v3
+        with:
+          dotnet-version: '10.0.x'
 
-    - run: dotnet restore
-    - run: dotnet format --verify-no-changes
+      - run: dotnet restore
+      - run: dotnet format --verify-no-changes
