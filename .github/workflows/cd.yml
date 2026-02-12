@@ -7,7 +7,31 @@ on:
 
 jobs:
   build:
+
     runs-on: ubuntu-latest
     steps:
-      - name: will replace with real build
-        run: echo "build will happen here"
+
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Login to registry
+        uses: docker/login-action@v3
+        with:
+          registry: ghcr.io
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }
+
+      - name: Build and push Docker image
+        uses: docker/build-push-action@v5
+        with:
+          context: .
+          file: ./Dockerfile
+          push: true
+          tags: ghcr.io/${{ github.repository }}:latest
+          
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Build and push Docker image
+        run: echo "deploy will happen here"

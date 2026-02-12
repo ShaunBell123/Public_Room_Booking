@@ -11,10 +11,11 @@ on:
   #   branches:
   #     - main
 
-#comment just to see if this work 6
+#comment just to see if this work 10
 
 jobs:
   CI:
     uses: ./.github/workflows/ci.yml
   CD:
+    needs: CI
     uses: ./.github/workflows/cd.yml
