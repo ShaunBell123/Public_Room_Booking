@@ -1,6 +1,10 @@
 # .github/workflows/ci-cd.yml
 name: ci-cd
 
+permissions:
+  contents: read
+  packages: write
+
 
 on:
   push:
@@ -10,8 +14,6 @@ on:
   # pull_request:
   #   branches:
   #     - main
-
-#comment just to see if this work 10
 
 jobs:
   CI:
